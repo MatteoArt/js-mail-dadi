@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 119, 121);
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.container {
+    width: 400px;
+    min-height: 280px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 18px;
+}
+.output {
+    margin-top: 10px;
+}
