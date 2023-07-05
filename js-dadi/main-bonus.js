@@ -53,6 +53,7 @@ btnEl.addEventListener("click", function () {
     //decreta vincitore 
     if (totGiocatore > totCpu) {
         winElement.innerHTML = "<span class='success'>Hai vinto!</span>";
+        alert("Hai vinto!");
     } else if (totGiocatore === totCpu) {
         winElement.innerHTML = "<span class='par'>Pareggio</span>";
     } else {
