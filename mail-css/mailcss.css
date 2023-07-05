@@ -14,14 +14,35 @@ h1.title {
 }
 .container {
     width: 400px;
-    min-height: 250px;
-    border: 1px solid black;
+    min-height: 190px;
     margin: 30px auto;
     padding: 18px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 label {
     display: block;
 }
+.input-mail {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 4px;
+}
 .btn {
     display: block;
+    padding: 5px;
+}
+.success {
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+.fail {
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
 }
