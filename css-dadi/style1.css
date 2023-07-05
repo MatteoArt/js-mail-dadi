@@ -23,3 +23,54 @@ h1 {
 .output {
     margin-top: 10px;
 }
+/* stili solo per dadi-bonus */
+.label-input {
+    display: block;
+}
+.input-group {
+    margin: 5px 0;
+}
+.btn-game {
+    margin-top: 7px;
+}
+.game-title {
+    margin-bottom: 8px;
+}
+.tot {
+    font-size: large;
+    font-weight: 600;
+    color: brown;
+}
+.win {
+    margin-top: 12px;
+}
+.success {
+    color: green;
+    font-weight: 600;
+}
+.par {
+    color: grey;
+    font-weight: 600;
+}
+.fail {
+    color: red;
+    font-weight: 600;
+}
+.output-number1 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 7px 0 4px 0;
+}
+.output-number2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 2px 0;
+}
+.btn-game {
+    padding: 5px;
+    cursor: pointer;
+}
+.numbers {
+    font-size: medium;
+    font-weight: 600;
+}

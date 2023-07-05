@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Bonus Dadi</title>
+    <link rel="stylesheet" href="css-dadi/style1.css">
+</head>
+<body>
+    <h1>Gioco Dadi</h1>
+    <div class="container">
+        <h3 class="game-title">Lancia dado 3 volte</h3>
+        <div class="input-group">
+            <label class="label-input" for="giocata1">Gioca primo numero:</label>
+            <input type="number" name="number1" id="giocata1" min="1" max="6">
+        </div>
+        <div class="input-group">
+            <label class="label-input" for="giocata2">Gioca secondo numero:</label>
+            <input type="number" name="number2" id="giocata2" min="1" max="6">
+        </div>
+        <div class="input-group">
+            <label class="label-input" for="giocata3">Gioca terzo numero:</label>
+            <input type="number" name="number3" id="giocata3" min="1" max="6">
+        </div>
+        <button type="button" class="btn-game">Gioca</button>
+        <div class="output-number1"></div>
+        <div class="output-number2"></div>
+        <div class="win"></div>
+    </div>
+
+    <script src="js-dadi/main-bonus.js"></script>
+</body>
+</html>
