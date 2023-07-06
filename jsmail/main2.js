@@ -25,6 +25,7 @@ btnElement.addEventListener("click", function () {
 
         if (match === mail) {
             mail_trovata = true;
+            break; //fermo il ciclo quando e se trovo la mail
         }
     }
 
